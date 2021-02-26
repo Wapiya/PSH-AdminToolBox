@@ -1,8 +1,11 @@
 # PSH-AdminToolBox
 Powershell can save a lot of time or create a huge headache if you are working as an system administrator :-)
 
-# Scripts
-Not all of 
+## Scripts
+The default location of code I develop (most of them only 'scripts' and no 'functions') because not all of the scripts I create are needed in daily tasks, so I don´t save them in my 'AdminToolbox' module.
+
+## Modules
+Those scripts I needed most got wrapped in a 'function' and stored in my 'module' so the are small building blocks in an modular working 'AdminToolbox'.
 
 ### Support me a bit :-)
 If you buy me a coffe you not just support my 'daily fuel' to keep my brain running smooth, but you also motivate me to further improve my work. 
