@@ -3,7 +3,7 @@ Powershell can save a lot of time or create a huge headache if you are working a
 
 ## Scripts
 The default location of code I develop (most just 'scripts' and no 'functions') because not all of the scripts I create are needed in daily tasks, so I don´t save them in my 'AdminToolbox' module.
-### get-RandomPassword
+#### get-RandomPassword
 Easy to use script to get a randomized password based on a predfined 'salt'
 
 ## Modules
