@@ -1,0 +1,3 @@
+SvcName;Priority;Description
+spooler;1;Druck Server
+wuauserv;2;Windows Update
