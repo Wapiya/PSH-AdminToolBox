@@ -14,6 +14,14 @@ I am using this on several servers and the users are verry happy with it because
 
 ## Modules
 Those scripts I needed most got wrapped in a 'function' and stored in my 'module' so the are small building blocks in an modular working 'AdminToolbox'.
+#### Convert-DN
+Often was bored dealing with 'distinguished names' to extract information from it (like OU where user is located..why is there no value directly for that). This one is the answer to extract the info I needed most
+#### Convert-SpecialChars
+During my progress creating scripts for 'sync object from VMware hypervisor to Active Directory' I needed this to clear chars for using in setting the descrition of computerobjects afterwards
+#### Convert-Umlaut
+During my progress creating a script for 'user creation automation' this one get handy to remove/treat specials chars used in german surname/givennmae which can´t be used in a samaccountname or something similar - currently I think we in Germany are the only ones translating a 'ü' to 'ue' for example
+##### Convert-UmlautCyrillic
+During my progress creating a script for 'user creation automation' this one get handy to remove/treat specials chars used in surname/givennmae which can´t be used in a samaccountname or something similar
 
 ### Support me a bit :-)
 If you buy me a coffe you not just support my 'daily fuel' to keep my brain running smooth, but you also motivate me to further improve my work. 
