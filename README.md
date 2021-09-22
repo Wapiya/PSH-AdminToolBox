@@ -7,10 +7,10 @@ The default location of code I develop (most just 'scripts' and no 'functions') 
 Easy to use script to get a randomized password based on a predfined 'salt'#
 #### Restart-Services-InOrder
 Often I got to the situation that a user (or power user) should be able to take a bit care of "his application" on a server without acting like a admin. 
-For example it often helps to just restart some services but to explain a user how to do this in the right was is not always easy. 
-With this little tool you could define a list of services (including a user friendly desrription) an also define a priority in which order the services should be processed. Together with the option to stop them and start them in reverse order you could grant the user only to log on by RDP and just stop/start the named services in the script (see helpfile in script for firther information). Additionally all action can be stored in a log file so that a group of user could check when the last action was executed. 
+For example it often helps to just restart some services but to explain a user how to do this in the right way is not always easy. 
+With this little tool you could define a list of services (including a user friendly desrription) an also define a priority in which order the services should be processed. Together with the option to stop/start them in reverse order you could grant the user only to log on by RDP and just stop/start the named services in the script (see helpfile in script for further information). Additionally all action can be stored in a log file so the last action(s) could be checked afterwards. 
 
-I am using this on several servers and the users are verry happy with it because the just have to hit an icomn on the desktop and answer a question. Together with the logfiles it is always clear who did which action when.
+I am using this on several servers and the users are verry happy with it because they just have to hit an icon on the desktop and select an option. Together with the logfiles it is always clear who did which action when.
 
 ## Modules
 Those scripts I needed most got wrapped in a 'function' and stored in my 'module' so the are small building blocks in an modular working 'AdminToolbox'.
